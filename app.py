@@ -31,4 +31,5 @@ analysis_routes(rt)
 ai_route(rt)
 backtest_routes(rt)
 
-if __name__ == '__main__': serve(host='0.0.0.0', port=8000, reload=False)
+
+serve(host='0.0.0.0', port=8000, reload=False)
