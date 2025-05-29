@@ -1,0 +1,14 @@
+ccxt==4.4.5
+fastlite==0.1.3
+fh_plotly==0.2.4
+langchain==0.3.25
+langchain_ollama==0.3.3
+langgraph==0.4.7
+mistletoe==1.4.0
+monsterui==1.0.19
+pandas==2.2.3
+plotly==5.24.1
+python_fasthtml==0.12.14
+uvicorn==0.34.2
+numpy==1.26.4
+vectorbt==0.27.3
