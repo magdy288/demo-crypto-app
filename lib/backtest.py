@@ -98,7 +98,9 @@ def bbands_strategy(symbol: str, interval: str, num_days: int, cash: int, sl_per
     slippage=0.02,
     freq=interval,
     sl_stop=sl_percent,
-    tp_stop=tp_percent
+    tp_stop=tp_percent,
+    short_entries=data['Exit'],
+    short_exits=data['Entry']
 )
     val = pf.stats().to_dict()
 
@@ -113,8 +115,8 @@ def bbands_strategy(symbol: str, interval: str, num_days: int, cash: int, sl_per
     return pf, val
 
 # data = bbands_strategy('BTC/USDT', '30m', 50, 5555, 0.5, 0.5)
-#
-# df = data[1].to_csv('aaa.csv')
+
+# df = data[1]
 # plot = data[0].plot()
-#
+
 # print(df)
